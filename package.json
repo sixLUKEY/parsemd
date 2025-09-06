@@ -1,0 +1,24 @@
+{
+  "name": "parsemd",
+  "version": "1.0.0",
+  "description": "parsemd",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:go:test": "cd test && go build -o parsemd ../cmd/parsemd",
+    "parse:test": "cd test && ./parsemd parse test.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixLUKEY/parsemd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sixLUKEY/parsemd/issues"
+  },
+  "homepage": "https://github.com/sixLUKEY/parsemd#readme"
+}
